@@ -74,7 +74,7 @@
   width: 50%;
 }
 .wrapper{
-    width: calc(100% - 64px);
+    width: 100%;
     min-height: 650px;
 }
 </style>
