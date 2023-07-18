@@ -116,7 +116,7 @@ const onExport = () => {
   let params = qs.stringify(toRaw(query))
   params += '&pageSize=99999&pageNum=1';
   // 接口更新
-  window.open('http://107.182.187.121:8089/merchantOrder/merchantOrdernewExport?' + params);
+  window.open('http://http://newmanager.bankqrpay.com:8089/merchantOrder/merchantOrdernewExport?' + params);
 }
 
 const onChangeNote = () => {
