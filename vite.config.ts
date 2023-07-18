@@ -12,7 +12,7 @@ export default defineConfig({
   server: {
     proxy: {        
       '/api':{
-        target: 'http://http://newmanager.bankqrpay.com:8089',
+        target: 'http://newmanager.bankqrpay.com',
         rewrite: path => path.replace(/^\/api/, ''),
         changeOrigin: true,
       }
