@@ -44,7 +44,7 @@ const goto = (url: string) => {
     <el-menu-item index="/bank-management">
       <template #title>{{$t('side_bar.bank_management')}}</template>
     </el-menu-item>
-    <el-menu-item index="'/merchant-paylist">
+    <el-menu-item index="'/paylist">
       <template #title>{{$t('side_bar.transaction_history')}}</template>
     </el-menu-item>
     <el-menu-item index="'/payoutmerchant-order">
